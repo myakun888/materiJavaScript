@@ -1,0 +1,4 @@
+bismillahirohmanirohim
+allaummasholiala muhammad waalaali muhammad
+dalam materi js kali ini
+kita menggunakan koneksi js embeden dimana koneksi html dan js langsung di dalm script html
