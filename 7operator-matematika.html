@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>operator-matematika</title>
+</head>
+<body>
+
+   <script>
+      let a= 1;
+      let b= 2;
+      let c= 3;
+      let d= 6
+      //pertambahan
+      hasil = a+ b
+      document.write(`hasil ${a} + ${b} = ${hasil}`)
+      
+      document.write("</br>")
+      //pengurangan
+      hasil= b-a
+      document.write(`hasil ${c} - ${b} = ${hasil}`)
+      document.write("</br>")
+      
+      //pekalian
+      hasil= b*c
+      document.write(`hasil ${b} * ${c} = ${hasil}`)
+      document.write("</br>")
+      
+      //ekponen
+      hasil= b**c
+      document.write(`hasil ${b}**${c} = ${hasil}, (ini sama dengan 2x2x2)`)
+      document.write("</br>")
+      
+      //pembagian
+      hasil = d/b
+      document.write(`hasil ${d} / ${b} = ${hasil}`)
+      document.write("</br>")
+      
+      //modulo / modulus / sisabagi
+      
+      hasil= d%b
+      document.write(`hasil modulo ${d} % ${b} = ${hasil},, \n
+      contoh lain ${d} % 5 = ${d%5}`)
+      document.write("</br>")
+      
+      document.writeln("<p> contoh operator augmented </p>") 
+      
+      //operator augmented
+      let hasil2 = 2
+      hasil2 = hasil2+1 // disini hasil nya 2
+      // atau bisa juga di tulis dengan
+      hasil2+=1 // disini hasil nya 4
+      document.write(`${hasil2}`)
+      
+      document.write("</br>")
+      
+      document.writeln("contoh operator unary") 
+      //operator unari adalah operator yang hanya memerlukan satu operan
+      // diantaran contoh a + b , b*c dll
+      // dan juga ada ++  atau increment (menaikan satu nilai), -- decrement (menurunkan 1 nilai)
+      let un_a = 2
+      document.write("</br>")
+      document.writeln(`nilai a = ${un_a}  jika di incrimetn un_a++ menjadi`) 
+      document.write("</br>")
+      un_a++
+      document.writeln(un_a) 
+      
+      </script>
+</body>
+</html>
