@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>operator logika</title>
+</head>
+<body>
+<script>
+   //operator logika membandingakn dua buah atau lebih sebuah nilai
+   // dan nilai / return value yang di hasilkan itu adalah boolean true (benar), false (salah)
+   // &&  (dan / and)
+   // || ( or / atau )
+   // ! (negasi / kebalikan) unary
+
+   /* dalam contoh ini kita akan membandingkan 2 buah nilai
+    ciri operator
+    1.operator && = akan menghasilkan nilai true jika kedua nilai tersebut true( benar), jika salah satu dari nilai tersebut bernilai false(salah) maka nilai yang dikembalikan adalah false
+    
+    2. operator || = akan menghasilkan nilai true jika kedua nilai nya true atau salah satu dari nilai adalah true, jika kedua nya false maka nilai yang di hasilkan adalah false
+
+    3. operator ! = ni adalah opertor kebalikan jika nilai true maka akan megembalikan false, jika nilai false maka akan menghasilkan true
+    */
+   
+
+   let nilaiujian =10
+   let nilaiabsen = 10;
+
+   let lulusujian = nilaiujian >5 //true
+   let lulusabsen = nilaiabsen >6 //true
+
+   let naikkelas = lulusujian && lulusabsen
+   
+   document.write(`<p> ${naikkelas} </p>`) // ini true karena ke2 nilai diatas benar, akan false jika salah satu nya salah/false
+   
+   nilaiujian =5
+   nilaiabsen = 10;
+   
+   lulusujian = nilaiujian >5 //false
+   lulusabsen = nilaiabsen >6 //true
+   naikkelas = lulusujian  || lulusabsen
+   document.write(`<p> ${naikkelas} </p>`) // ini true karena salh satu nilai benar, akan false jika 22 ny salah / false
+
+
+   let benar = true //true
+   let salah = false //false
+
+   document.write(`<p> ${!benar} </p>`)// false, karena nilai ny selumnya adalah true
+   document.write(`<p> ${!salah} </p>`)// true, karena nilai ny selumnya adalah false
+
+</script>
+</body>
+</html>
